@@ -10,7 +10,7 @@ function dividirOctal() {
         document.querySelector("#resultado").innerHTML  = "El resultado de la division es: " + resultado + " y el resto es: " + resto ;
         document.querySelector("#valor1").value = resultado;
 
-                if (resto == 10){
+        if (resto == 10){
             resto = "A";
         }
         if (resto == 11){
@@ -29,7 +29,6 @@ function dividirOctal() {
             resto = "F";
         }
 
-        
         let array = [];
         array.push(resto);
         document.querySelector("#resto").innerHTML += " " + array;
