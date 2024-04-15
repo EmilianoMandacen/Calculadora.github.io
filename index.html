@@ -4,28 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <style>
-        body{
-            font-family: verdana;
-            font-size: 18px;
-            text-align: center;
-            background-color: antiquewhite;
-        }
-    </style>
 
     <h1>Calculadora</h1>
 
     <label for="valor1">Ingrese un valor a dividir</label>
     <br><br>
-    <input type="number" id="valor1">
+    <input type="number" id="valor1" placeholder="Decimal">
     <br><br>
     <label for="valor2">Ingrese por cuanto quiere dividirlo</label>
     <br><br>
-    <input type="number" id="valor2">
+    <input type="number" id="valor2" placeholder="Ej: 2, 8, 16">
     <br><br>
-    <input type="button" value="Calcular" id="calcular">
+    <button class="my-button" id="calcular">Calcular</button>
     <br><br>
     <label id="resultado"></label>
     <br><br><br>
